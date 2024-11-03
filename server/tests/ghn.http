@@ -1,0 +1,50 @@
+POST https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/create
+Content-Type: application/json
+token: 3dc4414e-ebda-11ee-b6f7-7a81157ff3b1
+shop_id: 4978020
+{
+  "payment_type_id": 2,
+  "note": "Tintest 123",
+  "from_name": "Tin",
+  "from_phone": "0909999999",
+  "from_address": "123 Đường 3/2",
+  "from_ward_name": "Phường 5",
+  "from_district_name": "Quận 11",
+  "from_province_name": "TP Hồ Chí Minh",
+  "required_note": "KHONGCHOXEMHANG",
+  "return_name": "Tin",
+  "return_phone": "0909999999",
+  "return_address": "123 Đường 3/2",
+  "return_ward_name": "Phường 5",
+  "return_district_name": "Quận 11",
+  "return_province_name": "TP Hồ Chí Minh",
+  "client_order_code": "",
+  "to_name": "quang tran",
+  "to_phone": "0337447925",
+  "to_address": "Hưng Yên, Huyện Phù Cừ, Xã Tam Đa, Đường Khương Đình, số nhà 45",
+  "to_ward_name": "Xã Tam Đa",
+  "to_district_name": "Huyện Phù Cừ",
+  "to_province_name": "Hưng Yên",
+  "cod_amount": 60000000,
+  "content": "Theo New York Times",
+  "weight": 200,
+  "length": 1,
+  "width": 19,
+  "height": 10,
+  "cod_failed_amount": 2000,
+  "pick_station_id": 1444,
+  "deliver_station_id": null,
+  "insurance_value": 10000000,
+  "service_id": 0,
+  "service_type_id": 2,
+  "coupon": null,
+  "pick_shift": null,
+  "pickup_time": 1665272576,
+  "items": [ 
+        { 
+        "name": "iPhone 12 Pro Max 128GB", 
+        "quantity": 2, 
+        "price": 30000000 
+        } 
+    ]
+}
